@@ -1,0 +1,469 @@
+body{
+	margin: 0 auto;
+    background-image: url(../images/background.png);
+	/* Путь к фоновому изображению */
+	background-size: cover;
+}
+header{
+    margin: 0;
+	
+	
+}
+
+.container{
+	width: 70%;
+	margin: 0 auto;	/* выравнивание блока по центру */
+}
+.container_feet_back{
+	width: 60%;
+	margin: 0 auto;	/* выравнивание блока по центру */
+}
+b{
+	margin: 0;
+	padding: 0;
+}
+
+
+.menu{
+   
+	margin: 35px;
+	padding: 0px;
+	display: flex;
+    color:#cc9966;
+	list-style-type: none;
+	/*width: 100%;*/
+    align-items: center;
+	justify-content: space-around;
+   
+}
+
+.menu li:hover
+{
+  
+  /*  background-color: #7e5b85; /* Цвет фона активного пункта 
+ padding: 40px,0px;
+  opacity: 0.6; */
+    cursor: pointer;
+ color: skyblue;
+   
+}
+
+
+/*.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    background-color: darkorange;
+    margin: 0;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    z-index: 2;
+}*/
+
+nav{width: 100%;
+      /* background: linear-gradient(to top,#191a1c, #b5b6b7);*/
+     background-image: url(../images/header2.png);
+    background-size: cover;
+
+    height: 160px;
+    position: fixed;
+    z-index: 10;
+ 	display: flex;
+	align-items: center;
+	justify-content: space-between;
+    padding: 0px;
+    margin-top:0px;
+    font-size: 22px;
+ 
+
+   
+   
+}
+
+
+
+
+
+.main_1{
+		
+	width: 100%;
+	display: flex;
+	align-items: left;
+	justify-content: space-between;
+	text-align: left;
+	
+}
+.main_1_item1{
+	width: 40%;
+    align-items: left;
+   
+   text-align: left;
+}
+.main_1_item2{
+	 width: 60%;
+    align-items: left;
+	text-align: left;
+}
+.CONTENT{
+    
+   color:white;
+/*    opacity: .2;*/
+    height:100%;
+    position: relative;
+    top: 160px;    
+  
+ /* text-align: left;*/
+
+}
+.link_a{
+	 
+   height:100%;
+    position: relative;
+    top: -150px;
+}
+.parent{
+	
+    
+   margin:0 auto;
+
+   
+  display:inline-block;
+    vertical-align:bottom; 
+}
+.img_blok{
+   vertical-align:bottom;  text-align: center;
+  
+}
+
+
+
+buton{
+    cursor: pointer;
+    margin: 3px;
+    padding: 3px;
+}
+ .line_vert{ 
+    border-left: 2px solid #ccc; /* Параметры линии */ 
+    margin-left: 0; /* Отступ слева */
+    padding-left: 10px;
+     /* Расстояние от линии до текста */
+     text-align: left;
+     -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+   }
+
+hr {margin: 10px;
+    border:none; /* Убираем границу */
+    background-color: white; /* Цвет линии */
+    color: white; /* Цвет линии для IE6-7 */
+    height: 2px; /* Толщина линии */
+   }
+.button_image{
+   width: 250px;
+    height: 30px;  
+    background-color: black;
+    color: white;
+   font-family:sans-serif;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+
+      box-shadow: 0 10px 10px rgba(0,0,0,0.8); /* Параметры тени */
+   cursor: pointer; 
+}
+.line{
+   width: 100%;
+    height: 15px;  
+    background-color: #8d6e51;
+    
+
+   
+}
+.line2{
+   width: 100%;
+    height: 30px;  
+    background-color: #b58e65;
+      z-index: 2;
+position: relative;
+   opacity: 0.9;
+}
+.servis{
+    position: relative;
+    background-image: url(../images/back_shape.png);
+	/* Путь к фоновому изображению */
+	background-size: cover;
+height: auto;
+  z-index: 2;
+    width:100%;
+}
+.molot{
+    position: absolute;
+     right: 20px;
+    bottom:-5px;
+
+    background-image: url(../images/molot.png);
+	/* Путь к фоновому изображению */
+	background-size: cover;
+width: 400px;
+    height: 350px;
+  z-index: 3;
+   
+}
+.servis_content{
+    position: relative;
+    background:rgba(89,73,163,0.6);
+	/* Путь к фоновому изображению */
+	/*opacity: 0.5;*/
+height: auto;
+  z-index:3;
+    width:100%;
+}
+.servis_content1{
+    opacity: 1;
+    
+  z-index:4;
+   
+}
+.list,list2
+{
+   
+    font-size: 20px;
+ text-align: left;
+	
+    cursor: pointer;
+ color: white;
+   
+}
+.position_right{
+    position: absolute;
+    
+    right: -12px;
+    bottom: 20px;
+}
+.yellow_text{
+    color: yellow;
+}
+ul{
+    margin 0;
+}
+.list2 {
+   margin: 0;
+	
+    padding: 0;
+	list-style: none;
+	
+}
+.list2 li:hover{
+    width: auto;
+    background-color: #b58e65;
+    border-radius:0 50px  50px 0;
+ /*   background:linear-gradient(-45deg, transparent 10%,  #b58e65 0)top right,
+ linear-gradient(-135deg, transparent 10%,  #b58e65 0)bottom right; */
+ background-size: auto;
+    /* Цвет фона активного пункта 
+ padding: 40px,0px;
+
+    cursor: pointer;
+ /*color: skyblue;  */
+}
+.list li:hover{
+    background-color: #b58e65; 
+       border-radius:0 50px  50px 0;
+   /*   background:linear-gradient(-45deg, transparent 15px,  #b58e65 0)top right,
+ linear-gradient(-135deg, transparent 15px,  #b58e65 0)bottom right; */
+ background-size: cover;
+    /* Цвет фона активного пункта 
+ padding: 40px,0px;
+
+    cursor: pointer;
+ /*color: skyblue;  */
+}
+
+
+.main_flex{margin: 5px;
+     padding: 5px;
+	display: flex;
+   justify-content:space-around;
+}
+image_list_flex{
+    display: inline-block;
+    
+  
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.image_list-img{
+     margin: 10px;
+   /* position: relative;*/
+     border: 2px ridge rgba(41,41,41,.5);
+}
+.image_list-title{
+    font-size: 18px;
+    color: black;
+     text-decoration: underline;
+}
+.image_list-text{
+    font-size: 18px;
+    text-align: justify;
+    color: white;
+    margin: 5px;
+}
+.btn{
+    padding: 5px ;
+    display: inline-block;
+    background:#693ab4;
+    background-color:linear-gradient(180deg, #693ab4, #b6aaca ); 
+    color: #fff;
+    font-weight: bold;
+    width:90%;;
+    height:40px;
+}
+. bold{ color: black;
+     font-weight: bold;
+ font-size: 30px;
+}
+
+
+     a:link1 {color: #c59c6c;
+    text-decoration: none; /* Убирает подчеркивание для ссылок */
+   } 
+   
+   a:hover {
+    text-decoration: none; /* Делает ссылку подчеркнутой при наведении на нее курсора */
+    color: red; /* Цвет ссылки */
+   } 
+
+.right{
+   /* color: white;*/
+    display: flex;
+    justify-content: flex-end;
+    
+    right: 135px;
+    margin-top:10px;
+     position: fixed;
+}
+.right-text{
+    
+
+   
+  display: flex;
+    justify-content:flex-end;
+    
+}
+.left{
+width: 100%
+   
+    display: flex;
+    justify-content:flex-start;
+    
+}
+
+
+.feet_back{
+   
+    position: relative;
+  text-align: center;
+    background-image: url(../images/photo_back.png);
+	/* Путь к фоновому изображению */
+	background-size: cover;*/
+height: 600px;
+  z-index: 1;
+    width:100%;
+}
+.base_shape1_feet_back_left
+{display: inline-block;
+    width: auto;
+    font-size: 18px;
+       background: rgba(78,60,126,0.8);
+background:linear-gradient(-70deg, transparent 10%,  rgba(78,60,126,0.8) 0); 
+    
+    color: white;
+    margin: 1%;
+    padding: 1%;
+       padding-left: 7%;
+     padding-right:  10%;
+    text-align: left;
+    position: relative;
+   
+	background-size: cover;
+height: auto;
+ 
+}
+.base_shape1_feet_back_right{
+  background:linear-gradient(70deg, transparent 10%,  rgba(78,60,126,0.8) 0);  
+      padding-left: 10%;
+     padding-right: 7%;
+    text-align: right;
+    text-align:right ;
+}
+
+.photo_feet_back__left{
+    position: absolute;
+    top: -10px;
+    left: -120px;
+}
+.photo_feet_back__right{
+    position: absolute;
+    top: -10px;
+    right: -120px;
+}
+.contacs{
+    display: inline-block;
+     position: relative;
+  text-align: center;
+   
+height: 600px;
+
+    width:100%;
+}
+.contacs2{
+     position: relative;
+    background-size: cover;
+height: 600px;
+
+    width:100%;
+}
+.adres{
+    width: 200px;
+    height: 200px;
+   margin:1%;
+    padding: 1%;
+    background: rgba(198,156,109,0.9);
+    color: white;
+ font-size: 18px;
+    text-align:left;
+     position: absolute;
+    bottom: 20px;
+    left: 60%;
+    
+}
+
+.consultation{
+    width: 300px;
+    height: 300px;
+   margin:10px;
+    border:2px solid #4e3c7e;
+    padding: 10px;
+    background:white;
+    box-shadow: 
+        20px 8px 4px #4e3c7e; 
+    color: #4e3c7e;
+ font-size: 25px;
+    text-align: right;
+  z-index: 2;
+     position: absolute;
+   left: 60%;
+    top: -10%;
+}
+.input_text{
+    
+    padding: 2px;
+    margin: 5px;
+    background:#e6e6e6;
+    
+}
